@@ -61,6 +61,20 @@
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0</value>
       </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">calculateDateDifference</value>
+          <value name="serviceName">pub.date:calculateDateDifference</value>
+          <value name="transformerSupport">true</value>
+        </record>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
