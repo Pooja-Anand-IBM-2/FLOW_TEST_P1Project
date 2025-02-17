@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+- name: rahs_gl-ispackage
+  gitServerName: GL_SH_Account
+  gitUrl: http://engx.gitlab01.eur.ad.sag/root
+  gitUsername: root
+  gitBranch: main
