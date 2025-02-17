@@ -8,7 +8,19 @@ packages:
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
 - name: rahs_gl-ispackage
+  version: "1.0"
   gitServerName: GL_SH_Account
   gitUrl: http://engx.gitlab01.eur.ad.sag/root
   gitUsername: root
   gitBranch: main
+services:
+- serviceName: project.flow_test_p1.integrations:e1
+  packages:
+  - name: FLOW_TEST_P1Project
+    version: "1.0"
+  - name: rahs_gl-ispackage
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
