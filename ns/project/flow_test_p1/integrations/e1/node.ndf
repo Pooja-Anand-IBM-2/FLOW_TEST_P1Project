@@ -74,6 +74,8 @@
           <value name="serviceName">pub.date:calculateDateDifference</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
   </record>
